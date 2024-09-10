@@ -133,10 +133,10 @@ export default {
 					if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 						if (request.headers.get('Host').includes(".workers.dev")) {
 							sub = 'noTLS.fxxk.dedyn.io'; 
-							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
+							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/Special-Care/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
 							sub = 'VLESS.fxxk.dedyn.io';
-							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
+							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/Special-Care/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
 						}
 					}
 					const vlessConfig = await getVLESSConfig(userID, request.headers.get('Host'), sub, UA, RproxyIP, url);
