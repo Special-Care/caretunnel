@@ -10,7 +10,7 @@ let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给
 
 let sub = '';// 留空则使用内置订阅
 let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
-let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/Special-Care/TunnelAPI/main/ACL4SSR_Online.ini"; //订阅配置文件
 let subProtocol = 'https';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
@@ -44,7 +44,7 @@ let FileName = 'caretunnel';
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [];//本地代理域名池
-let proxyhostsURL = 'https://raw.githubusercontent.com/Special-Care/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
+let proxyhostsURL = 'https://raw.githubusercontent.com/Special-Care/TunnelAPI/main/proxyhosts';//在线代理域名池URL
 let RproxyIP = 'false';
 export default {
 	/**
@@ -136,7 +136,7 @@ export default {
 							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/Special-Care/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
 							sub = 'VLESS.fxxk.dedyn.io';
-							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/Special-Care/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
+							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/Special-Care/TunnelAPI/main/ACL4SSR_Online_Full_MultiMode.ini";
 						}
 					}
 					const vlessConfig = await getVLESSConfig(userID, request.headers.get('Host'), sub, UA, RproxyIP, url);
