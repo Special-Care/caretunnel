@@ -46,7 +46,7 @@ let addresses = [
 	'time.kis#SpecialCare',
 	'www.mwto.org:8443#SpecialCare',
 	'chatgpt.ncom:2087#SpecialCare',
-	'icook.hk#SpecialCare'
+	'icook.ohk#SpecialCare'
 ];
 let addressesapi = [];
 let addressesnotls = [];
