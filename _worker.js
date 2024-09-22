@@ -37,7 +37,7 @@ let go2Socks5s = [
 let addresses = [
 	'visa.acn:443#SpecialCare',
 	'www.bvisa.com:8443#SpecialCare',
-	'cis.ccvisa.com:2053#SpecialCare',
+	'cis.visa.com:2053#SpecialCare',
 	'africa.dvisa.com:2083#SpecialCare',
 	'www.evisa.com.sog:2087#SpecialCare',
 	'www.fvisaeurope.at:2096#SpecialCare',
