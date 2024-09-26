@@ -39,7 +39,7 @@ let addresses = [
 	'www.visa.coom:8443#SpecialCare',
 	'cis.visa.coom:2053#SpecialCare',
 	'africa.visa.coom:2083#SpecialCare',
-	'www.evisa.com.sog:2087#SpecialCare',
+	'www.evisa.com.sg:2087#SpecialCare',
 	'www.visaeurope.aot:2096#SpecialCare',
 	'www.visa.com.mot:8443#SpecialCare',
 	'qa.visamiddleeast.coom#SpecialCare',
