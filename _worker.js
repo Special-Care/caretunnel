@@ -35,18 +35,18 @@ let go2Socks5s = [
 	'*ttvnw.net'
 ];
 let addresses = [
-	'visa.cn:443#US',
-	'www.visa.com:8443#KR',
-	'cis.visa.com:2053#HK',
-	'africa.visa.com:2083#SG',
-	'www.evisa.com.sg:2087#JP',
-	'www.visaeurope.at:2096#KR',
-	'www.visa.com.mt:8443#HK',
-	'qa.visamiddleeast.com#US',
-	'time.is#SG',
-	'www.wto.org:8443#KR',
-	'chatgpt.com:2087#JP',
-	'icook.hk#HK'
+	'visa.cn:443#US-SpecialCare',
+	'www.visa.com:8443#KR-SpecialCare',
+	'cis.visa.com:2053#HK-SpecialCare',
+	'africa.visa.com:2083#SG-SpecialCare',
+	'www.evisa.com.sg:2087#JP-SpecialCare',
+	'www.visaeurope.at:2096#KR-SpecialCare',
+	'www.visa.com.mt:8443#HK-SpecialCare',
+	'qa.visamiddleeast.com#US-SpecialCare',
+	'time.is#SG-SpecialCare',
+	'www.wto.org:8443#KR-SpecialCare',
+	'chatgpt.com:2087#JP-SpecialCare',
+	'icook.hk#HK-SpecialCare'
 ];
 let addressesapi = [];
 let addressesnotls = [];
