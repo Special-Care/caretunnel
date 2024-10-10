@@ -34,20 +34,7 @@ let socks5s;
 let go2Socks5s = [
 	'*ttvnw.net'
 ];
-let addresses = [
-	'visa.cn:443#US-SpecialCare',
-	'www.visa.com:8443#KR-SpecialCare',
-	'cis.visa.com:2053#HK-SpecialCare',
-	'africa.visa.com:2083#SG-SpecialCare',
-	'www.evisa.com.sg:2087#JP-SpecialCare',
-	'www.visaeurope.at:2096#KR-SpecialCare',
-	'www.visa.com.mt:8443#HK-SpecialCare',
-	'qa.visamiddleeast.com#US-SpecialCare',
-	'time.is#SG-SpecialCare',
-	'www.wto.org:8443#KR-SpecialCare',
-	'chatgpt.com:2087#JP-SpecialCare',
-	'icook.hk#HK-SpecialCare'
-];
+let addresses = [];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
@@ -148,7 +135,7 @@ export default {
 							sub = 'noTLS.fxxk.dedyn.io'; 
 							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/Special-Care/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
-							sub = 'VLESS.fxxk.dedyn.io';
+							sub = 'happy.1949.buzz';
 							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/Special-Care/TunnelAPI/main/ACL4SSR_Online_Full_MultiMode.ini";
 						}
 					}
