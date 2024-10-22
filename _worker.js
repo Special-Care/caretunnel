@@ -34,7 +34,9 @@ let socks5s;
 let go2Socks5s = [
 	'*ttvnw.net'
 ];
-let addresses = [];
+let addresses = [
+	'www.evisa.com.sg:2087',
+];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
