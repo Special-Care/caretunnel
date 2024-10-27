@@ -44,7 +44,7 @@ let addresses = [
 	104.16.142.38#US,
 	104.16.83.94#JP,
 	104.17.215.61#KR,
-	104.16.135.229#CA,
+	104.16.135.229#CA
 ];
 let addressesapi = [];
 let addressesnotls = [];
