@@ -146,7 +146,7 @@ export default {
 							sub = 'noTLS.fxxk.dedyn.io'; 
 							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/Special-Care/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
-							sub = 'ovo.o00o.ooo/ooo';
+							sub = 'owo.o00o.ooo';
 							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/Special-Care/TunnelAPI/main/ACL4SSR_Online_Full_MultiMode.ini";
 						}
 					}
